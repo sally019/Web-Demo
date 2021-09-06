@@ -17,7 +17,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">BFTF</a>
+                    <a class="navbar-brand">BFTF</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -25,7 +25,7 @@
                         <li><a href="#">我要投資</a></li>
                         <li><a href="#agitsworkw3ls">會員中心</a></li>
                         <li><a href="#portfolio">關於我們</a></li>
-                        <li><a href="#">常見問題</a></li>
+                        <li>@Html.ActionLink("常見問題","Contact","Home")</li>
                         <li><a href="#agiilecontactw3layouts">聯絡我們</a></li>
                     </ul>
                 </div>
@@ -68,14 +68,14 @@
     <div class="container">
 
         <div class="col-md-6 col-sm-6 agileabout-grid agileabout-grid-1">
-            <h1><span>Welcome!</span> You will love us...</h1>
+            <h1><span>Welcome!</span><br />Always stand by you...</h1>
             <h4>我們的期望...</h4>
             <p>
                 我們的借貸媒合平台是利用網路的便利性取代傳統銀行專員服務去提供借貸。此專題系統內含會員個人基本資料，一開始可先註冊，
                 提供電子郵件設定帳號密碼，等真正有需求再填寫個人申貸表，裏面是較為隱私的資料（例如貸款緣由，家庭背景等），
                 再來因需核實要求貸款人取得自已的信用報告並郵寄到我方後台，一連串程序後正式上架系統媒合主頁，
                 借貸雙方達成共識由我方立契約。而相較貸款人所需的資料繁複，借貸人這邊只需提供個人的薪資證明...，
-                再者因有分一般及進階會員，不同身分享有不同權利，因此要享有較高的權利我們要求一般會員需繳納一定額度的費用才可升等，至於為什麼對貸款人的規範會比較多，
+                至於為什麼對貸款人的規範會比較多，
                 那是因為貸款本身承受風險的是借貸人因此相對的我們有義務要讓借貸人的投資風險降到最低
             </p>
         </div>
@@ -94,23 +94,23 @@
         <img src="~/images/explore.jpg" alt="W3layouts Agileits">
     </div>
     <div class="col-md-8 col-sm-8 w3layoutsexplore-grid w3layoutsexplore-grid-2">
-        <h2><span>Explore!</span> You will love it...</h2>
+        <h2><span>網站導覽</span><br />Borrow From The Future...</h2>
         <ul>
             <li class="explore-1">
-                <h4>Perspiciatis Unde Omnis</h4>
-                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
+                <h4>我要申貸</h4>
+                <p>step1.填寫申貸表<br />step2.後臺審核身分<br />step3.上架媒合平台</p>
             </li>
             <li class="explore-2">
-                <h4>Harum Quidem Rerum Elit</h4>
-                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
+                <h4>我要投資</h4>
+                <p>step1.選一投資標的<br />step2.銀行帳號匯款<br />step3.定期追蹤還款</p>
             </li>
             <li class="explore-3">
-                <h4>Omnis Voluptas Assumenda</h4>
-                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
+                <h4>會員中心</h4>
+                <p>1.個人帳號管理<br />2.投資查詢<br />3.貸款查詢</p>
             </li>
             <li class="explore-4">
-                <h4>Necessitatibus Saepe Sun</h4>
-                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
+                <h4>常見問題</h4>
+                <p>有關系統，網頁操作的問題可在這尋找解答，若還有不清楚的地方，歡迎來信詢問</p>
             </li>
         </ul>
     </div>
@@ -169,6 +169,9 @@
         <li class="active w3layouts agileits" data-filter="all">All</li>
         <li data-filter="1">Category1</li>
         <li data-filter="2">Category2</li>
+        <li data-filter="3">Category3</li>
+        <li data-filter="4">Category4</li>
+        <li data-filter="5">Category5</li>
     </ul>
     
 
